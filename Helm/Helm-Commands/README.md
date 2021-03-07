@@ -30,9 +30,23 @@ helm install my-release ./my-first-chart/ -n v10
 ### Overwrite the service type to from ClusterIP to NodePort 
 * This is usefull if we want to install the default chart and test it. This will just display the welcome page of Nginx
 * Set command allows us to overwrite values at the command line
+
+```yml
+service:
+  type: ClusterIP
+  port: 80
 ```
-helm install nginx ./[chart folder name] / --set service.type=NodePort -n [namespace]
+```
+helm install nginx ./[chart folder name]/ --set service.type=NodePort -n [namespace]
 helm install nginx ./my-first-chart/ --set service.type=NodePort -n v11
+```
+```
+helm install [release name] ./[chart folder name]/ --set service.type=NodePort -n [namespace]
+helm install [release name] ./[chart folder name]/ --set service.type=NodePort -n [namespace] -f values-nonprod.yaml
+
+helm install jenkins ./my-chart/ --set service.type=NodePort -n cicd 
+helm install jenkins ./my-chart/ --set service.type=NodePort -n cicd -f values-nonprod.yaml
+
 ```
 
 ### List charts or releases in the namespace
@@ -223,31 +237,5 @@ helm status demo-guestbook
 
 
 
-
-
-completion  generate autocompletion scripts for the specified shell
-  create      create a new chart with the given name
-  dependency  manage a chart's dependencies
-  env         helm client environment information
-  get         download extended information of a named release
-  help        Help about any command
-  history     fetch release history
-  install     install a chart
-  lint        examine a chart for possible issues
-  list        list releases
-  package     package a chart directory into a chart archive
-  plugin      install, list, or uninstall Helm plugins
-  pull        download a chart from a repository and (optionally) unpack it in local directory
-  repo        add, list, remove, update, and index chart repositories
-  rollback    roll back a release to a previous revision
-  search      search for a keyword in charts
-  show        show information of a chart
-  status      display the status of the named release
-  template    locally render templates
-  test        run tests for a release
-  uninstall   uninstall a release
-  upgrade     upgrade a release
-  verify      verify that a chart at the given path has been signed and is valid
-  version     print the client version information
 
 
