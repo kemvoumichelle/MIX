@@ -1,3 +1,9 @@
+#Web content location in the container for HTTPD, NGINX AND TOMCAT
+#HTTPD: /usr/local/apache2/htdocs/
+#NGINX: /usr/share/nginx/html/
+#TOMCAT: /usr/local/tomcat/webapps/
+
+
 FROM httpd
 LABEL maintainer="Tia M"
 RUN apt -y update
@@ -5,12 +11,25 @@ RUN apt -y install wget
 RUN apt -y install unzip
 WORKDIR /usr/local/apache2/htdocs/
 RUN rm -rf *
-RUN wget https://linux-devops-course.s3.amazonaws.com/WEB+SIDE+HTML/www.liyeplimal.net.zip 
-RUN unzip www.liyeplimal.net.zip 
-RUN cp -R www.liyeplimal.net/* . 
+RUN wget https://linux-devops-course.s3.amazonaws.com/WEB+SIDE+HTML/crypto.zip 
+RUN unzip crypto.zip 
+RUN cp -R crypto.zip/* . 
 CMD ["httpd-foreground"]
 EXPOSE 80
 
+
+FROM httpd
+LABEL maintainer="Tia M"
+RUN apt -y update
+RUN apt -y install wget
+RUN apt -y install unzip
+WORKDIR /usr/local/apache2/htdocs/
+RUN rm -rf *
+RUN wget https://linux-devops-course.s3.amazonaws.com/WEB+SIDE+HTML/covid19.zip
+RUN unzip covid19.zip 
+RUN cp -R covid19.zip/* . 
+CMD ["httpd-foreground"]
+EXPOSE 80
 
 
 FROM tomcat

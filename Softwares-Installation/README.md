@@ -180,6 +180,7 @@ Now that VS Code is installed on your CentOS system you can launch it either fro
 wget https://harbottle.gitlab.io/harbottle-main/7/x86_64/harbottle-main-release.rpm
 rpm -Uvh harbottle-main-release.rpm
 yum install kubectx -y
+kubectx
 ```
 
 ### Install kubens on CentOs
@@ -188,6 +189,7 @@ yum install kubectx -y
 wget https://github.com/ahmetb/kubectx/releases/download/v0.9.1/kubens_v0.9.1_linux_x86_64.tar.gz
 tar -zxvf kubens_v0.9.1_linux_x86_64.tar.gz
 mv kubens /usr/local/bin/
+kubens
 ```
 
 ### AWS CLI
@@ -219,6 +221,7 @@ kubens --help
 ### Install kubectl on CentOs
 ```sh
 curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.6.0/bin/linux/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+kubectl
 ```
 
 ```sh

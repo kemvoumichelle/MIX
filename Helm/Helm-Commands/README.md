@@ -201,9 +201,6 @@ helm show readme bitnami/kube-state-metrics
 ```
 
 
-### Daa
-
-
 ### Installing kube-state-metrics package
 * [kube-state-metrics](https://artifacthub.io/packages/helm/bitnami/kube-state-metrics)
 * It collects data from the kube API service about objects like pods, nodes, deploymentand configmaps
@@ -228,12 +225,6 @@ helm show readme bitnami/kube-state-metrics
 ```
 
 
-
-kubectl delete ns developer
-helm uninstall demo-guestbook
-helm install demo-guestbook guestbook
-helm history demo-guestbook
-helm status demo-guestbook
 
 
 

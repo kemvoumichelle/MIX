@@ -62,4 +62,14 @@ echo 'Remove files after succesful upload to S3'
 rm -rf *
 ```
 
+```
+1- Download the tar file from S3 backup into your local machine
+2- Copy the tar file into Jenkins jobs folder with: 
+kubectl cp <BACKUP_NAME>.tar <POD_NAME>:/var/jenkins_home/jobs/ -n cicd
+3- Login into a pod with: kubectl exec -it <POD_NAME> /bin/bash
+4- Navigate into the jobs folder and untar the backup with: tar -vxf <BACKUP_NAME>.tar
+5- Remove the backup folder from Jenkins job folder with: rm -rf <BACKUP_NAME>.tar
+6- Restart Jenkins
+```
+
 
