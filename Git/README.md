@@ -1,3 +1,21 @@
+### To install git 
+```
+yum -y install git
+apt-get install git -y
+```
+
+### To check if git is install
+```
+git --version
+```
+
+
+
+
+
+
+
+
 ### list all the branch
 git branch -a
 

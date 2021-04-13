@@ -1,20 +1,12 @@
 ### Reference
 * [Download terraform](https://www.terraform.io/downloads.html)
 * [AWS CLI download](https://aws.amazon.com/cli/)
-
+* [Terraform Releases](https://releases.hashicorp.com/terraform/)
 
 ### Terraform installation on Windows:
 * Unzip the folder
 * create a folder call terraform on the C drive and paste the terraform.exe
 * Type `env` on windows search bar and at it to path `C:\terraform`
-
-### Terragrunt installation on Windows:
-* [Download](https://github.com/gruntwork-io/terragrunt/releases)
-* create a folder call terragrunt on the C drive and paste the terragrunt.exe
-* Type `env` on windows search bar and at it to path `C:\terragrunt`
-```
-terragrunt --version
-```
 
 ### Install AWS CLI on Linux 
 * [Donload AWS CLI link](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install)
@@ -27,24 +19,6 @@ sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 aws --version
 ```
 
-### Terraform installation on Linux
-* 1- Download the binary terraform file.
-* 2- Move it into a rigth path.
-```sh
-wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip
-unzip terraform_0.13.5_linux_amd64.zip
-# To check
-./terraform
-mv terraform /usr/local/bin
-
-wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
-```
-
-* Check the version
-```
-terraform -version
-```
-
 ### Configure the AWS CLI
 ```
 aws configure
@@ -53,4 +27,45 @@ Region: us-esat-1
 * Output can be:
     * Table
     * Json (default)
+
+
+### Terraform v0.13.5 installation on Linux
+* [Terraform Releases](https://releases.hashicorp.com/terraform/)
+* 1- Download the binary terraform file.
+* 2- Move it into a rigth path.
+```sh
+wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip
+unzip terraform_0.13.5_linux_amd64.zip
+# To check
+./terraform
+mv terraform /usr/local/bin
+```
+* Check the version
+```
+terraform -version
+```
+
+### Terraform v0.12.26 installation on Linux
+* [Terraform Releases](https://releases.hashicorp.com/terraform/)
+```sh
+wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
+unzip terraform_0.13.5_linux_amd64.zip
+mv terraform /usr/local/bin
+```
+* Check the version
+```
+terraform -version
+```
+
+### Terraform v0.12.30 installation on Linux
+* [Terraform Releases](https://releases.hashicorp.com/terraform/)
+```sh
+wget https://releases.hashicorp.com/terraform/0.12.30/terraform_0.12.30_linux_amd64.zip
+unzip terraform_0.12.30_linux_amd64.zip
+mv terraform /usr/local/bin
+```
+* Check the version
+```
+terraform -version
+```
 

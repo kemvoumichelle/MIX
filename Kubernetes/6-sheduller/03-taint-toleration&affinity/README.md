@@ -8,7 +8,7 @@ NB:
 
 
 ## We have 3 types of toleration effect:
-- **NoSchedule:** this means that no pod will be able to schedule onto node1 unless it has a matching toleration or instructs Kubernetes scheduler not to schedule any new pods to the node unless the pod tolerates the taint.
+- **NoSchedule:** this means that no pod will be able to schedule on node1 unless it has a matching toleration or instructs Kubernetes scheduler not to schedule any new pods to the node unless the pod tolerates the taint.
 - **NoExecute:** the pod will be evicted or removed or killed from the node (if it is already running on the node), and will not be scheduled onto the node (if it is not yet running on the node). Or instructs Kubernetes scheduler to evict pods already running on the node that don’t tolerate the taint.
 - **PreferNoSchedule:**  Kubernetes will try to not schedule the pod onto the node; however, there is no guarantee
 

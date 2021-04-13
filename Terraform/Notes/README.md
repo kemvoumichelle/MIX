@@ -517,6 +517,8 @@ var.list[*].id
 ```
 
 ### Working with Console Recorder for AWS
+* [Console Recorder for AWS](https://chrome.google.com/webstore/detail/console-recorder-for-aws/ganlhgooidfbijjidcpkeaohjnkeicba?hl=en)
+* [AWS Console Recorder - Demonstration](https://www.youtube.com/watch?v=u1crm24vTpA&t=4s)
 * Use the link above to add the extent to google
 * Launch the recording and start creating resources.
 * Stop the recording when the resources creation is done
