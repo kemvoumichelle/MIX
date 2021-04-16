@@ -9,7 +9,29 @@ apt-get install git -y
 git --version
 ```
 
+### To initialize a new local empty repository
+```
+mkdir git
+cd git
+git init
+```
 
+### This will show you .git which means local repo
+```
+ls -a
+```
+
+### What is the folder called .git?
+- The `.git `folder is the directory which is created when you do `git init` `.git `folder makes your project a "git" repository. Without `.git`, your project is a local project and not a git project, that means you cannot perform any git operations.
+
+- The .git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.
+
+- git stores the metadata and object database for the project in this directory like:
+    - Remote information (to which remote server your project is connected)
+    - History of all local commits
+    - Branch information (on which branch is your current project state (HEAD) pointing to)
+    - All logs of all local commits you have ever made (including revert changes)
+    - The config file will hold all the configuration
 
 
 
