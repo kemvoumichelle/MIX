@@ -1,3 +1,3 @@
 ## DEVOPS AND LINUX TRAINING
 
-![](devops-pipeline.JPG)
+![](/images/devops-pipeline.JPG)
