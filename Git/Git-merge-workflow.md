@@ -11,9 +11,9 @@
 - Release branch (release)
 - and feature branch 
 
-+ **Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc.
+    + **Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc.
 
-+ **NB:** EC-3000 or ON-680 is the ticket number for the new feature to be develop
+    + **NB:** EC-3000 or ON-680 is the ticket number for the new feature to be develop
 
 
 ### Staging, Qa and Production environments
