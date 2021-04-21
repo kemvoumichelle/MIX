@@ -61,8 +61,8 @@ git show <commit ID>
 ### Git diff
 - The file can have 3 different stages: file in working directory different from file in the staging area, file in the staging area different from the file in the local repository. 
 - To see the difference between the file in the working directory and the same file that was committed already in the local repository, and we have not yet pushed it to the remote repository.
-    - + = new content was add
-    - = content was removed
+    - `+` = new content was add
+    - `=` content was removed
 
 **NB:** The better way to compare 2 file is to use `VS Code`. This because while working in the real world, we might have thousand lines of code to compare and the good tool here will be `VS Code`
 
