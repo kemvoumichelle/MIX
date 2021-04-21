@@ -11,9 +11,9 @@
 - Release branch (release)
 - and feature branch 
 
-**Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc.
++ **Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc.
 
-**NB:** EC-3000 or ON-680 is the ticket number for the new feature to be develop
++ **NB:** EC-3000 or ON-680 is the ticket number for the new feature to be develop
 
 
 ### Staging, Qa and Production environments
@@ -21,14 +21,14 @@ For smaller companies (it's not clear how big yours might be), three environment
 
 **These normally break down as follows:**
 
-**Dev:** Dev environment is the one created and maintained by Development team for writing the code. The access for this environment is given to the development team only. Usually the **QA** team doesn’t have access to this environment. This environment is mostly used by Dev team for their unit testing. Changes made by developers are deployed here so integration and features can be tested. 
++ **Dev:** Dev environment is the one created and maintained by Development team for writing the code. The access for this environment is given to the development team only. Usually the **QA** team doesn’t have access to this environment. This environment is mostly used by Dev team for their unit testing. Changes made by developers are deployed here so integration and features can be tested. 
 
 
-**QA/Test:** (Not all companies will have this). Environment for quality assurance. QA environment is where the testing actually takes place. This environment is owned by the ***QA team***. The ***DEV team doesn’t have access to this environment***. After design and coding completion, the code is moved to QA environment for QA team to conduct test execution.
++ **QA/Test:** (Not all companies will have this). Environment for quality assurance. QA environment is where the testing actually takes place. This environment is owned by the ***QA team***. The ***DEV team doesn’t have access to this environment***. After design and coding completion, the code is moved to QA environment for QA team to conduct test execution.
 
-**Staging/ Pre-Production:** This environment is normally a mirror of the ***production environment***. The staging area contains the "next" version of the application and is used for final stress testing and **client/manager** approvals before going live.
++ **Staging/ Pre-Production:** This environment is normally a mirror of the ***production environment***. The staging area contains the "next" version of the application and is used for final stress testing and **client/manager** approvals before going live.
 
-**Production:** This is the currently released version of the application. This is the environment that your customers interact with. It needs to be as stable and bug-free as possible.
++ **Production:** This is the currently released version of the application. This is the environment that your customers interact with. It needs to be as stable and bug-free as possible.
 
 ```
 ```
