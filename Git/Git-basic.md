@@ -1,15 +1,17 @@
-### To install git 
+# Git Basics
+
+### Git installation
 ```
 yum -y install git
 apt-get install git -y
 ```
 
-### To check if git is install
+### Check if git is install
 ```
 git --version
 ```
 
-### To initialize a new local empty repository
+### Initialize a new local empty repository
 ```
 mkdir git
 cd git
@@ -40,19 +42,19 @@ tree .git
 ### Add you name and email
 This is to know who commited something when we type git log
 
-**To add you name**
+**Add you name**
 ```
 git config --global user.name "Your Name"
 git config --global user.name "Tia M"
 ```
 
-**To add you email**
+**Add you email**
 ```
 git config --global user.email "your email address"
 git config --global user.email "tia@gmail.com"
 ```
 
-### To list the global configuration
+### List the global configuration
 ```
 git config --list
 or 

@@ -77,13 +77,13 @@ echo "Hello John" >> file.txt
 git diff file.txt
 ```
 
-** See any modification of a file in the local repository**
+**See any modification of a file in the local repository**
 ```
 git diff <file name>
 git diff file.txt
 ```
 
-** See any modification of a file in the staging area**
+**See any modification of a file in the staging area**
 ```
 git diff --staged <file name>
 git diff --staged file.txt

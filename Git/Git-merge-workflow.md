@@ -11,7 +11,8 @@
 - Release branch (release)
 - and feature branch 
 
-**Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc...
+**Naming:** master, dev1, dev2, dev3, qa1, qa2, pt1, stg1, prd1, feature/EC-3000, release1.4, feature/ON-680 etc.
+
 **NB:** EC-3000 or ON-680 is the ticket number for the new feature to be develop
 
 
@@ -29,7 +30,8 @@ For smaller companies (it's not clear how big yours might be), three environment
 
 **Production:** This is the currently released version of the application. This is the environment that your customers interact with. It needs to be as stable and bug-free as possible.
 
-
+```
+```
 ### What is a Master Branch?
 The master branch is the branch that reflects what currently running is production
 
