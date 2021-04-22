@@ -57,13 +57,6 @@ git merge [source branch] [target branch]
 git push -u origin feature/EC-3060
 ```
 
-### Git Basics - Tagging
-```
-git tag -a v1.4 -m "my version 1.4"
-git tag
-git show v1.4
-```
-
 ### Renaming Git Branch
 - Follow the steps below to rename a Local and Remote Git Branch:
 

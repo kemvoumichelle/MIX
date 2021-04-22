@@ -1,5 +1,6 @@
-### Github authentification 
-- 3 ways to authenticate Github:
+# Github authentification 
+
+### 3 ways to authenticate Github:
     - Personal access token
     - Username and password (HTTPS: This is the default one)
     - SSH
