@@ -85,7 +85,7 @@ git push -u origin v1.1.0
 
 ### DevOps Easy Learning Website Releases
 
-**About:**This is the description of the repository (DevOps Easy Learning Website)
+**About:** This is the description of the repository (DevOps Easy Learning Website)
 
 **Release Title:** E-learning release v1.0.0
 
@@ -102,6 +102,7 @@ git push -u origin v1.1.0
 - Pop up for messages.
 - Translation capability (one language to another).
 
+#### --------------------------------------------------------------------------
 
 **Release Title:** E-learning release v1.1.0
 
