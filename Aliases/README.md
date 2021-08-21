@@ -1,31 +1,24 @@
-### Open the bashrc
-ls -a
-vim .bashrc
-
-### Add Aliases in /etc/profile
-```
-vim /etc/profile
-source /etc/profile
-
-OR
+dsafdswgfd/, mz
+xa/,c vdv.m d;vk
+?http://ec2-18-221-245-96.us-east-2.compute.amazonaws.com:8080 x./,zv d;vdfWDCV V
 
 ls -a
 vim .bashrc
 source .bashrc
 ```
 
-### kubctl
+### kubctlDVDVFDVGFEDWQAveqwvdsv
 ```
 alias k='kubectl'
 alias kgnode='kubectl get no'
 alias kgn='kubectl get namespace'
 alias kgp='kubectl get po'
-alias kgs='kubectl get svc'
+alias kgs='kubectl get svc'DSAVdvdqwaVFQE
 alias kgd='kubectl get deploy'
 alias kdd='kubectl describe deploy'
 alias kdp='kubectl describe pod'
 
-alias kdelp='kubectl delete po'
+alias kdelp='kubectl delete po'a
 alias kdels='kubectl delete svc'
 alias kdeld='kubectl delete deploy'
 
